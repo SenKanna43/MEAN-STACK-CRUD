@@ -7,8 +7,9 @@ const app = express();
 const cors = require("cors");
 const port = 5000;
 
+// Enter your mongodb username and password
 const mongodatabaseURL =
-  "mongodb+srv://senthamaraikannan:Jovika%40123@cluster0.csftb5x.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://username:password@cluster0.csftb5x.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(mongodatabaseURL, {
   useNewUrlParser: true,
